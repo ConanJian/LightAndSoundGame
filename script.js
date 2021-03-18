@@ -85,7 +85,8 @@ function guess(btn)
   if(!gamePlaying){
     return;
   }
-  if()
+  if(btn == pattern[progress])
+    
   
 }
 
