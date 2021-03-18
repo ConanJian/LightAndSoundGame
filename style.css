@@ -3,14 +3,17 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: slategray;
+  background-color: #706156;
   color: white;
 }
 
 h1 {
   font-family: verdana, arial, sans-serif; 
   font-style: italic;
-  color: #2594e8;
+  color: #4dfff6;
+}
+p{
+  color: #4dfff6;
 }
 
 button{
