@@ -15,15 +15,15 @@ The following **required** functionality is complete:
 * [done] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
 * [done] "Start" button toggles between "Start" and "Stop" when clicked. 
 * [done] Game buttons each light up and play a sound when clicked. 
-* [ ] Computer plays back sequence of clues including sound and visual cue for each button
-* [ ] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
-* [ ] User wins the game after guessing a complete pattern
-* [ ] User loses the game after an incorrect guess
+* [done] Computer plays back sequence of clues including sound and visual cue for each button
+* [done] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [done] User wins the game after guessing a complete pattern
+* [done] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
 * [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [Button4 does, the others sound great] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [ ] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
 * [ ] Computer picks a different pattern each time the game is played
