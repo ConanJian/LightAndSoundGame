@@ -3,9 +3,23 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: slategray;
+  color: white;
 }
 
 h1 {
+  font-family: verdana, arial, sans-serif; 
   font-style: italic;
-  color: #373fff;
+  color: White;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button{
+  width:200px;
+  height:200px;
+  margin:2px;
 }
