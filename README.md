@@ -4,9 +4,9 @@
 
 Submitted by: **Conan Jian**
 
-Time spent: **1.78** hours spent in total
+Time spent: **1.87** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/code-path-lightandsoundgame?path=README.md%3A1%3A0
+Link to project: https://glitch.com/edit/#!/code-path-lightandsound?path=README.md%3A9%3A17
 
 ## Required Functionality
 
