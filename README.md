@@ -5,6 +5,8 @@
 Submitted by: **Conan Jian**
 
 Time spent: **1.87** hours spent in total
+(only the time it took to make the required functionality as well as a few comments)
+
 
 Link to project: https://glitch.com/edit/#!/code-path-lightandsound?path=README.md%3A9%3A17
 

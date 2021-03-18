@@ -88,27 +88,29 @@ function guess(btn)
   
   /* I have a log which serves as proof that I didn't just copy the code and make a few changes
   because I will admit my code looks exactly like the sample code. It can be found in proof.txt as is
-  basically me writing out my thought process of the code.*/
+  basically me writing out my thought process of the code. The documentation was added after I finished making
+  the required functionality took me 20mins and it isn't included in my total time*/
   
   
   if(btn == pattern[guessCounter]){ //guessCounter contains # guessed right 
                                     //and is also the index to the correct answer
-    if(guessCounter == progress){   //progress tells us how many patterns to play
-                                    //
-      if(progress == pattern.length-1){
-        winGame();
+    if(guessCounter == progress){   //progress+1 tells us what stage to play(stage 1 = progress 0 = play 1 light/sound)
+                                    //here #guessedRight = guessCounter+1 and progress+1 is how many light/sound have been played
+                                    //so guessCounter+1 == progress+1 => guessCounter == progress then we have played the entire stage
+      if(progress == pattern.length-1){ //this checks if we have played the last stage
+        winGame();//if played and guessed correct the last stage we win
       }
       else{
-        progress++;
+        progress++;//otherwise move on to the next stage
         playClueSequence();
       }
     }
     else{
-      guessCounter++; //update guessCounter if guess right and it isn't time for next sequence
+      guessCounter++; //update guessCounter if guess right and it isn't time for next stage
     }
   }
   else{
-    loseGame();
+    loseGame(); //anything incorrect instantly stops the game
   }
 }
 
