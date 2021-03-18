@@ -1,7 +1,7 @@
 //Global Constants
-const clueHoldTime = 1000; //how long to hold the clue's light/sound
+const clueHoldTime = 500; //how long to hold the clue's light/sound
 const cluePauseTime = 333; //how long to pause in between clues
-const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
+const nextClueWaitTime = 500; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
 var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
@@ -85,10 +85,26 @@ function guess(btn)
   if(!gamePlaying){
     return;
   }
-  if(btn == pattern[progress])
-    
   
+  if(btn == pattern[guessCounter]){
+    if(guessCounter == progress){    
+      if(progress == pattern.length-1){
+        winGame();
+      }
+      else{
+        progress++;
+        playClueSequence();
+      }
+    }
+    else{
+      guessCounter++;
+    }
+  }
+  else{
+    loseGame();
+  }
 }
+
 
 
 // Sound Synthesis Functions
