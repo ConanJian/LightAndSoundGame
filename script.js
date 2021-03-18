@@ -6,6 +6,7 @@ const nextClueWaitTime = 1000; //how long to wait before starting playback of th
 //Global Variables
 var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
 var progress = 0;
+var guessCounter = 0;
 var gamePlaying = false;
 
 
@@ -22,6 +23,7 @@ function startGame()
   document.getElementById("startBtn").classList.add("hidden"); //we are adding the class .hidden to id="startBtn"
   document.getElementById("stopBtn").classList.remove("hidden");
   //document means the DOM as a js object
+  playClueSequence();
 }
 function stopGame()
 {
@@ -52,6 +54,7 @@ function playSingleClue(btn)
 
 function playClueSequence()
 {
+  guessCounter = 0;
   let delay = nextClueWaitTime; //set delay to initial wait time
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
@@ -61,6 +64,25 @@ function playClueSequence()
   }
 }
 
+function loseGame(){
+  stopGame();
+  alert("Game Over. You lost.");
+}
+
+function winGame()
+{
+  stopGame();
+  alert("Winner!")
+}
+
+function guess(btn){
+  console.log("user guessed: " + btn);
+  if(!gamePlaying){
+    return;
+  }
+
+  // add game logic here
+}
 
 
 // Sound Synthesis Functions
