@@ -1,0 +1,18 @@
+When building the logic for the code, I first started out using for loops.
+
+I did this because I realized that I was going to build the entire sequence for how the game is suppose to be run.
+So, like a true java developer who only needs to press the run button, I tried to build the entire thing, so that it would run with one click of the panel.
+Few minutes later, I realize I call the code everytime I press the button so a for loop is a actually a problem.
+
+I used log.console("Did this run") to see how far my code ran because I realized that the game would only work for 2 runs.
+
+I realized that I was using pattern[progress] and progress wasn't being updated(I had this in the array because in the for loop I would update progress)
+After that I tried to for loop the whole thing again only to quickly remember that doing a for loop makes no sense.
+I thought about what variable I should use/ what var would work and I realized the guessCounter would work.
+I replaced the var with guessCount and it failed to work because the var's name is guessCounter.
+
+On the final run it worked and I checked my code only to find out I have typed(practically) the exact same code as you.
+
+Which is why I have this paragraph as evidence that I made the whole function legitly and by myself.
+
+This is not included in my time for developing the webpage.

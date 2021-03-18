@@ -86,8 +86,14 @@ function guess(btn)
     return;
   }
   
-  if(btn == pattern[guessCounter]){
-    if(guessCounter == progress){    
+  /* I have a log which serves as proof that I didn't just copy the code and make a few changes
+  because I will admit my code looks exactly like the sample code. It can be found in proof.txt as is
+  basically me writing out my thought process of the code.*/
+  
+  
+  if(btn == pattern[guessCounter]){ //guessCounter contains # guessed right 
+                                    //and is also the index to the correct answer
+    if(guessCounter == progress){   //progress tells us which sequence we are at
       if(progress == pattern.length-1){
         winGame();
       }
@@ -97,7 +103,7 @@ function guess(btn)
       }
     }
     else{
-      guessCounter++;
+      guessCounter++; //update guessCounter if guess right and it isn't time for next sequence
     }
   }
   else{

@@ -44,9 +44,15 @@ Here's a walkthrough of implemented user stories:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
-I googled how to get the length of an array. This website, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+[For all the required functionality:
+-I googled how to get the length of an array. This website, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
 , was the first thing that popped up.
+-I also use your prework website: https://courses.codepath.org/snippets/summer_internship_for_tech_excellence/prework]
+
+[For all optional features:
+Put answer here when I finish writing optional features]
+
+
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]
 
