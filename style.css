@@ -52,12 +52,10 @@ button{
   background: yellow;
 }
 /*hover won't affect the simon says buttons because they have a more specific identifier
-25 minutes so far*/
-/*55 minutes*/
 button:hover{
   background: cyan;
 }
-
+*/
 .hidden{
   display: none;
 }

@@ -78,7 +78,7 @@ function winGame()
   stopGame();
   alert("Winner!")
 }
-
+//around 25 minutes creating this
 function guess(btn)
 {
   console.log("user guessed: " + btn);
