@@ -54,6 +54,14 @@ button{
 #button4:active, #button4.lit{
   background: yellow;
 }
+
+#button5{
+  background: #8c8987;
+}
+#button5:active, #button5.lit{
+  background: white;
+}
+
 /*hover won't affect the simon says buttons because they have a more specific identifier
 button:hover{
   background: cyan;
