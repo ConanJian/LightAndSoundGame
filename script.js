@@ -93,7 +93,8 @@ function guess(btn)
   
   if(btn == pattern[guessCounter]){ //guessCounter contains # guessed right 
                                     //and is also the index to the correct answer
-    if(guessCounter == progress){   //progress tells us which sequence we are at
+    if(guessCounter == progress){   //progress tells us how many patterns to play
+                                    //
       if(progress == pattern.length-1){
         winGame();
       }
