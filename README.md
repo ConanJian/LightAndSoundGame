@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 * [Button4 does, the others sound great] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [Done] More than 4 functional game buttons
 * [Done] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [Done] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)

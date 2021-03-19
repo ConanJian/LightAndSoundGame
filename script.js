@@ -8,6 +8,7 @@ var pattern = [2, 5, 4, 3, 2, 1, 2, 4];
 var progress = 0;
 var guessCounter = 0;
 var gamePlaying = false;
+var mistake = 0;
 
 var tonePlaying = false;
 var volume = 0.2; //between 0.0 - 1.0
@@ -15,15 +16,18 @@ var volume = 0.2; //between 0.0 - 1.0
 function randomPattern(){
   for(let i=0; i < 8; i++){
     let r = Math.ceil(5*Math.random());
+    pattern[i] = r;
+    console.log(r);
   }
-  
 }
 
 
 function startGame() {
   //initialize game variable
+  clueHoldTime = 1000;
   progress = 0;
   gamePlaying = true;
+  randomPattern();
   document.getElementById("startBtn").classList.add("hidden"); //we are adding the class .hidden to id="startBtn"
   document.getElementById("stopBtn").classList.remove("hidden");
   //document means the DOM as a js object
@@ -106,7 +110,16 @@ function guess(btn) {
       guessCounter++; //update guessCounter if guess right and it isn't time for next stage
     }
   } else {
-    loseGame(); //anything incorrect instantly stops the game
+    mistake++;
+    if(mistake == 1){
+      alert(mistake+" mistake made.")
+    }
+    else()
+    if(mistake == 3){
+      loseGame(); //anything incorrect instantly stops the game
+    }
+    clueHoldTime +=100; //otherwise when your 2 mistakes in it gets really fast
+    playClueSequence();
   }
 }
 
