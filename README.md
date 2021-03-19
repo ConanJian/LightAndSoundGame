@@ -81,7 +81,10 @@ How often do front-end web developers have to develop projects that require the 
 ]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[I would probably make multiple different modes for the game. I would keep the current mode as original and use a drop down box to select the other modes.
+Other modes I would implement would be: speed mode where the holdClueTime variable would be very small constant
+; weird mode, where each button's size shift randomly every sequence making the pattern even harder to memorize
+; endless mode, original mode]
 
 
 
