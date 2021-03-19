@@ -60,7 +60,14 @@ Need round up for Math.random(): https://www.w3schools.com/jsref/jsref_ceil.asp
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [I would say that developing the game logic was probably the most difficult. I know that the tutorial practically gave me with that
-flow diagram, but I wanted to develop the logic my]
+flow diagram, but that doesn't mean I understand why the flow chart was made like that. Which is why I gave the code a little bit of thought
+to better understand what was happening. When I have a vague idea of what to do, I started coding. This ended up with the code not working, but it
+gave me a better grasp of the problem that I needed to solve. Then, I get out of my chair and start thinking while walking about.
+After I thought about how to make the code(I was basically simulating what I wanted the code to do in my head), I wrote the program.
+Then, I tested the program for bugs and then I'm done. That was the basic idea of what I did to figure out how to make the game logic.
+However, I can get a lot more specific on my thinking process.
+When I code, I usually do it in this order: simulate what I want to do, figure out how to do it, and then figure out how to code that.
+]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [How often do web developers use logic in the front-end? 
