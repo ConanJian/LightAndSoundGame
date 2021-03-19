@@ -78,7 +78,11 @@ I'm under the assumption that back-end developers use logic and alogrithms a lot
 What kind of work do back-end web developers do?
 As a front-end web developer do I only need to know HTML, CSS, and JavaScript?
 How often do front-end web developers have to develop projects that require the developer to use logic and js?
-I heard that one interview I might get asked is something like, "Describe a diff"]
+This question is more of a general question:
+When you guys asked in Q2, "What was a challenge you encountered in creating this submission", what did you mean by challenge?
+Because for me a challenge is more like when you have a goal you don't know if you can accomplish and you try to do it anyways.
+And that in the process of reaching your goal you have to come to several realizations before achieve that goal.
+For example, research, complex math problems, making a complicated algorithm]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [I would probably make multiple different modes for the game. 
