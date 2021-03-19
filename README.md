@@ -59,15 +59,21 @@ Need round up for Math.random(): https://www.w3schools.com/jsref/jsref_ceil.asp
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[I would say that developing the game logic was probably the most difficult. I know that the tutorial practically gave me with that
-flow diagram, but that doesn't mean I understand why the flow chart was made like that. Which is why I gave the code a little bit of thought
-to better understand what was happening. When I have a vague idea of what to do, I started coding. This ended up with the code not working, but it
-gave me a better grasp of the problem that I needed to solve. Then, I get out of my chair and start thinking while walking about.
-After I thought about how to make the code(I was basically simulating what I wanted the code to do in my head), I wrote the program.
-Then, I tested the program for bugs and then I'm done. That was the basic idea of what I did to figure out how to make the game logic.
-However, I can get a lot more specific on my thinking process.
-When I code, I usually do it in this order: simulate what I want to do, figure out how to do it, and then figure out how to code that.
-]
+[A challenge I encountered while creating this project, was the creation of the code for the game logic.
+I had a difficult time figuring out what to put inside the logic because event activated code was so different from the code that I am used to.
+In fact, I first envisioned the code as java code and began by writing a for-loop which would manage the whole game.
+I quickly realized that a for-loop would be a problem for this code because the user would call the for loop every time they pressed a button which isn't what we want.
+My confusion came from the fact that I thought that the code I was writing would govern the entire game, so I was using for-loops to call playClueSequence 8 times(Array size).
+I realized that I don't know what to do because my understanding was insufficent, therefore I simulated the game playing in my mind.
+By simulating the game, I was able to figure out what I wanted and how to make what I wanted become a reality using javascript.
+So, I got to work making the game and when I thought I was done I went to test my code.
+It didn't work(played the first two pattern, but ended at the third saying I guess wrong), so I started testing by using console.log to figure out if there was an issue with my if control structure.
+I found that there was no problem, so I started simulating what my code did to manually find the problem.
+It turns out that I was using pattern[progess] which was something I coded when I was still confused.
+So, I quickly realized that progress is definitely the wrong variable to put in there and after a minute or so I realized that guessCounter would be the perfect variable to put in pattern[].
+After I fixed that one mistake, my code ran fine and I checked my answer after testing my code again.
+--Notes--Does this count as a challenge? because I couldn't think of anything else that was difficult and even then this isn't really considered challenging to me. 
+I was able to write the answer in 27 minutes.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [How often do web developers use logic in the front-end? 
