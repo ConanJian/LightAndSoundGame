@@ -112,9 +112,11 @@ function guess(btn) {
   } else {
     mistake++;
     if(mistake == 1){
-      alert(mistake+" mistake made.")
+      alert(mistake+" mistake made.");
     }
-    else()
+    else{
+      alert(mistake+" mistakes made."); //literally the grammar was bothering me
+    }
     if(mistake == 3){
       loseGame(); //anything incorrect instantly stops the game
     }

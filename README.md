@@ -7,7 +7,7 @@ Submitted by: **Conan Jian**
 Time spent: **1.87** hours spent in total
 (only the time it took to make the required functionality as well as a few comments)
 
-3min for extra button
+Time for optional functions: 26minutes
 
 
 Link to project: https://glitch.com/edit/#!/code-path-lightandsound?path=README.md%3A9%3A17
@@ -27,11 +27,11 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [Done] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [Button4 does, the others sound great] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [Button4 sounds different, the others sound great by default so I left them] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [Done] More than 4 functional game buttons
 * [Done] Playback speeds up on each turn
 * [Done] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [Done] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
@@ -62,7 +62,11 @@ Need round up for Math.random(): https://www.w3schools.com/jsref/jsref_ceil.asp
 [YOUR ANSWER HERE]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[How often do web developers use logic in the front-end? 
+What about the back-end? 
+For front-end developers, do we need to figure out which colors to choose as well as all the spacing in the website by ourselves?(because I'm under the impression that, that is someone elses job)
+Is it true that it is difficult to get a job as a junior back-end developer and therefore I should start as a front-end developer if I wish to become a back-end developer?
+I'm under the assumption that back-end developers use logic and alogrithms a lot more in their work. Is this true?]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
