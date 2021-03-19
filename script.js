@@ -118,7 +118,7 @@ function guess(btn) {
       alert(mistake+" mistakes made."); //literally the grammar was bothering me
     }
     if(mistake == 3){
-      loseGame(); //anything incorrect instantly stops the game
+      loseGame(); //stops the game
     }
     clueHoldTime +=100; //otherwise when your 2 mistakes in it gets really fast
     playClueSequence();
