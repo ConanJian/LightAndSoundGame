@@ -59,14 +59,19 @@ Need round up for Math.random(): https://www.w3schools.com/jsref/jsref_ceil.asp
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[I would say that developing the game logic was probably the most difficult. I know that the tutorial practically gave me with that
+flow diagram, but I wanted to develop the logic my]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [How often do web developers use logic in the front-end? 
 What about the back-end? 
 For front-end developers, do we need to figure out which colors to choose as well as all the spacing in the website by ourselves?(because I'm under the impression that, that is someone elses job)
 Is it true that it is difficult to get a job as a junior back-end developer and therefore I should start as a front-end developer if I wish to become a back-end developer?
-I'm under the assumption that back-end developers use logic and alogrithms a lot more in their work. Is this true?]
+I'm under the assumption that back-end developers use logic and alogrithms a lot more in their work. Is this true?
+What kind of work do back-end web developers do?
+As a front-end web developer do I only need to know HTML, CSS, and JavaScript?
+How often do front-end web developers have to develop projects that require the developer to use logic and js?
+]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
@@ -75,7 +80,7 @@ I'm under the assumption that back-end developers use logic and alogrithms a lot
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Your Name]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
