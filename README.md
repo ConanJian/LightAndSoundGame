@@ -81,10 +81,20 @@ How often do front-end web developers have to develop projects that require the 
 ]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[I would probably make multiple different modes for the game. I would keep the current mode as original and use a drop down box to select the other modes.
-Other modes I would implement would be: speed mode where the holdClueTime variable would be very small constant
+[I would probably make multiple different modes for the game. 
+I would keep the current mode as original and use something like a drop down box to select the other modes.
+(The start button will call startGame() and startGame will determine what game to start by calling the functions of those games)
+Other modes I would implement would be: 
+speed mode, where the holdClueTime variable would be very small constant.
+(make function speedGame() where all the logic is the same just that playClueSequence doesn't change the holdClueTime)
 ; weird mode, where each button's size shift randomly every sequence making the pattern even harder to memorize
-; endless mode, original mode]
+I will make a function that takes a button's id number as an arguement and use the button id to change the button's size.
+I will call the function at the beginning of playClueSequence using a for loop currently iterate 5 times for 5 buttons
+; endless mode, original mode but with an endless pattern (I would just keep adding to the arrays)
+I would just make a call a function whenever a stage is finished that will do:
+pattern.length++;
+pattern[pattern.length-1]=5*Math.random();
+]
 
 
 

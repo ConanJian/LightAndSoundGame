@@ -14,7 +14,7 @@ var tonePlaying = false;
 var volume = 0.2; //between 0.0 - 1.0
 
 function randomPattern(){
-  for(let i=0; i < 8; i++){
+  for(let i=0; i < pattern.length; i++){
     let r = Math.ceil(5*Math.random());
     pattern[i] = r;
     console.log(r);
