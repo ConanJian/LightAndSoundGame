@@ -118,10 +118,13 @@ function guess(btn) {
       alert(mistake+" mistakes made."); //literally the grammar was bothering me
     }
     if(mistake == 3){
-      loseGame(); //stops the game
+      loseGame();//stops the game
+      mistake = 0;
     }
-    clueHoldTime +=100; //otherwise when your 2 mistakes in it gets really fast
-    playClueSequence();
+    if(gamePlaying){
+      clueHoldTime +=100; //otherwise when your 2 mistakes in it gets really fast
+      playClueSequence();
+    }
   }
 }
 
