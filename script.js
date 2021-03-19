@@ -1,5 +1,5 @@
-//Global Constants
 var clueHoldTime = 500; //how long to hold the clue's light/sound
+//Global Constants
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 500; //how long to wait before starting playback of the clue sequence
 
@@ -24,6 +24,7 @@ function randomPattern(){
 
 function startGame() {
   //initialize game variable
+  mistake = 0;
   clueHoldTime = 500;
   progress = 0;
   gamePlaying = true;
