@@ -15,4 +15,6 @@ On the final run it worked and I checked my code only to find out I have typed(p
 
 Which is why I have this paragraph as evidence that I made the whole function legitly and by myself.
 
-This is not included in my time for developing the webpage.
+The time it took to make this message is not included in my time for developing the webpage.
+Also, the time it shows on my project is wrong because I just left the tab open, so that is it looks like
+I've been on this project for forever

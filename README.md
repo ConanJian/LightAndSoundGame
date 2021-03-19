@@ -7,6 +7,8 @@ Submitted by: **Conan Jian**
 Time spent: **1.87** hours spent in total
 (only the time it took to make the required functionality as well as a few comments)
 
+3min for extra button
+
 
 Link to project: https://glitch.com/edit/#!/code-path-lightandsound?path=README.md%3A9%3A17
 
@@ -27,7 +29,7 @@ The following **optional** features are implemented:
 * [Done] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [Button4 does, the others sound great] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [Done] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
+* [Done] Playback speeds up on each turn
 * [ ] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
@@ -52,7 +54,8 @@ Here's a walkthrough of implemented user stories:
 -I also use your prework website: https://courses.codepath.org/snippets/summer_internship_for_tech_excellence/prework]
 
 [For all optional features:
-Put answer here when I finish writing optional features]
+How Math.random() works: https://www.w3schools.com/jsref/jsref_random.asp
+Need round up for Math.random(): https://www.w3schools.com/jsref/jsref_ceil.asp
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
