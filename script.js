@@ -63,9 +63,7 @@ function playClueSequence() {
     // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms");
     setTimeout(playSingleClue, delay, pattern[i]); // set a timeout to play that clue
-    // does setTimeout actually delay the running of code for the time period of delay?
-    // I think it does, otherwise I can break the application
-    // Also, the application won't stop playing the sound when I press stop(it will stop the playing of the next sound)
+    // The application won't stop playing the sound when I press stop(it will stop the playing of the next sound)
     // this is because when the sound is playing the true/false condition has already been checked
     delay += clueHoldTime;
     delay += cluePauseTime;
