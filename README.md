@@ -58,14 +58,17 @@ Proof Losing exists
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[For all the required functionality:
+
+For all the required functionality:
 -I googled how to get the length of an array. This website, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
 , was the first thing that popped up.
+
 -I also use your prework website: https://courses.codepath.org/snippets/summer_internship_for_tech_excellence/prework]
 
-[For all optional features:
+For all optional features:
 How Math.random() works: https://www.w3schools.com/jsref/jsref_random.asp
-Need round up for Math.random(): https://www.w3schools.com/jsref/jsref_ceil.asp
+
+Needed to round up for Math.random(): https://www.w3schools.com/jsref/jsref_ceil.asp
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
@@ -94,11 +97,7 @@ I'm under the assumption that back-end developers use logic and alogrithms a lot
 What kind of work do back-end web developers do?
 As a front-end web developer do I only need to know HTML, CSS, and JavaScript?
 How often do front-end web developers have to develop projects that require the developer to use logic and js?
-This question is more of a general question:
-When you guys asked in Q2, "What was a challenge you encountered in creating this submission", what did you mean by challenge?
-Because for me a challenge is more like when you have a goal you don't know if you can accomplish and you try to do it anyways.
-And that in the process of reaching your goal you have to come to several realizations before achieve that goal.
-For example, research, complex math problems, making a complicated algorithm]
+]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [I would probably make multiple different modes for the game. 
