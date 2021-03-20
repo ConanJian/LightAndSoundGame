@@ -44,7 +44,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 ![](your-link-here)
-
+Random Patterns and Stopping
+![](https://i.imgur.com/ZFEQn40.gif)
+Really Fast Demo, the video goes too fast so you can't see it light up when I click it
+![](https://i.imgur.com/LmKopoh.gif)
+Proof Winning exist
+![](https://i.imgur.com/XhtE1Pg.gif)
+Proof Losing exists
+![](https://i.imgur.com/cFwUf5h.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
